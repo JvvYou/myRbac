@@ -1,0 +1,12 @@
+__pycache__/
+apps/*/__pycache__/
+apps/*/migrations/__pycache__/
+logs/
+myRbac/__pycache__/
+.idea
+.scannerwork/
+.coverage/
+coverage.xml
+myRbac/settings_dev.py
+myRbac/settings_prod.py
+uploads/
