@@ -134,7 +134,6 @@ JWT_AUTH = {
     'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7)
 }
 
-
 # 日志配置
 cur_path = os.path.dirname(os.path.realpath(__file__))
 log_path = os.path.join(os.path.dirname(cur_path), 'logs')
@@ -273,3 +272,5 @@ LOGGING = {
         'propagate': False,
     },
 }
+
+from .settings_dev import *

@@ -98,7 +98,7 @@ class UserProfile(AbstractUser):
 
     objects = MyUserManager()
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['username', ]
+    REQUIRED_FIELDS = ['username', 'mobile']
 
     @property
     def is_staff(self):
